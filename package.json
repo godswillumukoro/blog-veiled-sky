@@ -1,6 +1,9 @@
 {
   "name": "blog-veiled-sky",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
