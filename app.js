@@ -9,6 +9,10 @@ const app = express();
 // Mongoose connection
 connectDatabase();
 
+// pass data through forms
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 // static folder
 app.use(express.static("public"));
 
